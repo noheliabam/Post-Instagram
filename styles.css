@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.post {
+  background: white;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-header, .post-actions, .post-description {
+  padding: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-image {
+  width: 100%;
+  display: block;
+}
